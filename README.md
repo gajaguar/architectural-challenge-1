@@ -21,3 +21,25 @@ elements:
 - Databases.
 - Networks and servers (on premise or cloud).
 - Security mechanisms.
+
+## Solution
+
+### Core Diagrams
+
+#### Stage 1 - Context
+
+![context](assets/context.svg)
+
+#### Stage 2 - Container
+
+![container](assets/container.svg)
+
+#### Stage 3 - Components
+
+##### API
+
+![api](assets/components-api.svg)
+
+##### Client
+
+![client](assets/components-client.svg)
