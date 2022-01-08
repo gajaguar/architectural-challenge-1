@@ -43,3 +43,56 @@ elements:
 ##### Client
 
 ![client](assets/components-client.svg)
+
+### Database
+
+#### Tables
+
+- `orders`
+  - `order_id`
+  - `client_id`
+  - `order_date`
+- `permissions`
+  - `permission_id`
+  - `permission_name`
+- `products`
+  - `product_id`
+  - `product_name`
+  - `prduct_description`
+  - `product_quantity`
+- `requests`
+  - `request_id`
+  - `supplier_id`
+  - `request_status_id`
+  - `request_date`
+- `request_statuses`
+  - `request_status_id`
+  - `request_status_name`
+- `roles`
+  - `role_id`
+  - `role_name`
+- `shipments`
+  - `shipment_id`
+  - `order_id`
+  - `shipment_status_id`
+  - `shipment_date`
+- `suppliers`
+  - `supplier_id`
+  - `supplier_name`
+  - `supplier_address`
+  - `supplier_email`
+  - `supplier_phone`
+- `users`
+  - `user_id`
+  - `role_id`
+  - `user_email`
+  - `user_password`
+  - `user_first_name`
+  - `user_last_name`
+  - `user_age`
+  - `user_address`
+  - `user_phone`
+
+#### Entity - Relation Diagram
+
+![entity-relation](assets/database-entity-relation.svg)
