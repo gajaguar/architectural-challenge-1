@@ -58,6 +58,7 @@ elements:
 - `products`
   - `product_id`
   - `product_name`
+  - `product_price`
   - `prduct_description`
   - `product_quantity`
 - `requests`
